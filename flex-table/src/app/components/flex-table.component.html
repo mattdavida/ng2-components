@@ -1,0 +1,137 @@
+<div class="page" #page>
+    <div class="flex-container header">
+        <div class="item small hide-header-item" *ngFor="let header of headers">{{ header }}</div>
+    </div>
+    <!-- 2 Column table -->
+    <div class="content" #content *ngIf="columns === 2">
+        <div class="flex-container" *ngFor="let item of data">
+            <div class="item small overflow-hide"> {{item.value1}}</div>
+            <div class="item small overflow-hide"> {{item.value2}}</div>
+        </div>
+    </div>
+    <!-- 3 Column table -->
+    <div class="content" #content *ngIf="columns === 3">
+        <div class="flex-container" *ngFor="let item of data">
+            <div class="item small overflow-hide"> {{item.value1}}</div>
+            <div class="item small overflow-hide"> {{item.value2}}</div>
+            <div class="item small overflow-hide"> {{item.value3}}</div>
+        </div>
+    </div>
+    <!-- 4 Column table -->
+    <div class="content" #content *ngIf="columns === 4">
+        <div class="flex-container" *ngFor="let item of data">
+            <div class="item small overflow-hide"> {{item.value1}}</div>
+            <div class="item small overflow-hide"> {{item.value2}}</div>
+            <div class="item small overflow-hide"> {{item.value3}}</div>
+            <div class="item small overflow-hide"> {{item.value4}}</div>
+        </div>
+    </div>
+    <!-- 5 Column table -->
+    <div class="content" #content *ngIf="columns === 5">
+        <div class="flex-container" *ngFor="let item of data">
+            <div class="item small overflow-hide"> {{item.value1}}</div>
+            <div class="item small overflow-hide"> {{item.value2}}</div>
+            <div class="item small overflow-hide"> {{item.value3}}</div>
+            <div class="item small overflow-hide"> {{item.value4}}</div>
+            <div class="item small overflow-hide"> {{item.value5}}</div>
+        </div>
+    </div>
+    <!-- 6 Column table -->
+    <div class="content" #content *ngIf="columns === 6">
+        <div class="flex-container" *ngFor="let item of data">
+            <div class="item small overflow-hide"> {{item.value1}}</div>
+            <div class="item small overflow-hide"> {{item.value2}}</div>
+            <div class="item small overflow-hide"> {{item.value3}}</div>
+            <div class="item small overflow-hide"> {{item.value4}}</div>
+            <div class="item small overflow-hide"> {{item.value5}}</div>
+            <div class="item small overflow-hide"> {{item.value6}}</div>
+        </div>
+    </div>
+    <!-- 7 Column table -->
+    <div class="content" #content *ngIf="columns === 7">
+        <div class="flex-container" *ngFor="let item of data">
+            <div class="item small overflow-hide"> {{item.value1}}</div>
+            <div class="item small overflow-hide"> {{item.value2}}</div>
+            <div class="item small overflow-hide"> {{item.value3}}</div>
+            <div class="item small overflow-hide"> {{item.value4}}</div>
+            <div class="item small overflow-hide"> {{item.value5}}</div>
+            <div class="item small overflow-hide"> {{item.value6}}</div>
+            <div class="item small overflow-hide"> {{item.value7}}</div>
+        </div>
+    </div>
+    <!-- 8 Column table -->
+    <div class="content" #content *ngIf="columns === 8">
+        <div class="flex-container" *ngFor="let item of data">
+            <div class="item small overflow-hide"> {{item.value1}}</div>
+            <div class="item small overflow-hide"> {{item.value2}}</div>
+            <div class="item small overflow-hide"> {{item.value3}}</div>
+            <div class="item small overflow-hide"> {{item.value4}}</div>
+            <div class="item small overflow-hide"> {{item.value5}}</div>
+            <div class="item small overflow-hide"> {{item.value6}}</div>
+            <div class="item small overflow-hide"> {{item.value7}}</div>
+            <div class="item small overflow-hide"> {{item.value8}}</div>
+        </div>
+    </div>
+    <!-- 9 Column table -->
+    <div class="content" #content *ngIf="columns === 9">
+        <div class="flex-container" *ngFor="let item of data">
+            <div class="item small overflow-hide"> {{item.value1}}</div>
+            <div class="item small overflow-hide"> {{item.value2}}</div>
+            <div class="item small overflow-hide"> {{item.value3}}</div>
+            <div class="item small overflow-hide"> {{item.value4}}</div>
+            <div class="item small overflow-hide"> {{item.value5}}</div>
+            <div class="item small overflow-hide"> {{item.value6}}</div>
+            <div class="item small overflow-hide"> {{item.value7}}</div>
+            <div class="item small overflow-hide"> {{item.value8}}</div>
+            <div class="item small overflow-hide"> {{item.value9}}</div>
+        </div>
+    </div>
+    <!-- 10 Column table -->
+    <div class="content" #content *ngIf="columns === 10">
+        <div class="flex-container" *ngFor="let item of data">
+            <div class="item small overflow-hide"> {{item.value1}}</div>
+            <div class="item small overflow-hide"> {{item.value2}}</div>
+            <div class="item small overflow-hide"> {{item.value3}}</div>
+            <div class="item small overflow-hide"> {{item.value4}}</div>
+            <div class="item small overflow-hide"> {{item.value5}}</div>
+            <div class="item small overflow-hide"> {{item.value6}}</div>
+            <div class="item small overflow-hide"> {{item.value7}}</div>
+            <div class="item small overflow-hide"> {{item.value8}}</div>
+            <div class="item small overflow-hide"> {{item.value9}}</div>
+            <div class="item small overflow-hide"> {{item.value10}}</div>
+        </div>
+    </div>
+    <!-- 11 Column table -->
+    <div class="content" #content *ngIf="columns === 11">
+        <div class="flex-container" *ngFor="let item of data">
+            <div class="item small overflow-hide"> {{item.value1}}</div>
+            <div class="item small overflow-hide"> {{item.value2}}</div>
+            <div class="item small overflow-hide"> {{item.value3}}</div>
+            <div class="item small overflow-hide"> {{item.value4}}</div>
+            <div class="item small overflow-hide"> {{item.value5}}</div>
+            <div class="item small overflow-hide"> {{item.value6}}</div>
+            <div class="item small overflow-hide"> {{item.value7}}</div>
+            <div class="item small overflow-hide"> {{item.value8}}</div>
+            <div class="item small overflow-hide"> {{item.value9}}</div>
+            <div class="item small overflow-hide"> {{item.value10}}</div>
+            <div class="item small overflow-hide"> {{item.value11}}</div>
+        </div>
+    </div>
+    <!-- 12 Column table -->
+    <div class="content" #content *ngIf="columns === 12">
+        <div class="flex-container" *ngFor="let item of data">
+            <div class="item small overflow-hide"> {{item.value1}}</div>
+            <div class="item small overflow-hide"> {{item.value2}}</div>
+            <div class="item small overflow-hide"> {{item.value3}}</div>
+            <div class="item small overflow-hide"> {{item.value4}}</div>
+            <div class="item small overflow-hide"> {{item.value5}}</div>
+            <div class="item small overflow-hide"> {{item.value6}}</div>
+            <div class="item small overflow-hide"> {{item.value7}}</div>
+            <div class="item small overflow-hide"> {{item.value8}}</div>
+            <div class="item small overflow-hide"> {{item.value9}}</div>
+            <div class="item small overflow-hide"> {{item.value10}}</div>
+            <div class="item small overflow-hide"> {{item.value11}}</div>
+            <div class="item small overflow-hide"> {{item.value12}}</div>
+        </div>
+    </div>
+</div>
